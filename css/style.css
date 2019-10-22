@@ -1,0 +1,628 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,900&display=swap');
+
+/********* Normal CSS *********/
+body, html{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1e1e1e;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/********* header top css *********/
+.header-social-icons ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header-social-icons {
+    float: left;
+}
+.search-box {
+    float: left;
+}
+.header-social-icons li {
+    display: inline-block;
+}
+.search-box-social-icons {
+    float: right;
+}
+.subscribe-btn {
+    float: left;
+}
+.search-box-social-icons i.fa.fa {
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+.search-box-social-icons input[type=search] {
+    border: none;
+    background: #f2f2f2;
+    padding: 10px 40px;
+    margin-right: -43px;
+}
+.search-box-social-icons .colored-black {
+    background: #333;
+    right: 0;
+    top: 0;
+}
+.search-box-social-icons .btn {
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    background-color: #3fc7f3;
+    border-radius: inherit;
+    padding: 11px 25px;
+    color: #fff;
+    margin: 0px 10px;
+    text-transform: uppercase;
+    margin-top: -3px;
+}
+i.colored-yellow.fa.fa-cog {
+    background: #fdd108;
+    margin-right: 10px;
+}
+i.colored-skyblue.fa.fa-twitter {
+    background: #00abf1;
+    margin-right: -4px;
+}
+i.colored-blue.fa.fa-facebook {
+    background: #297fb8;
+    margin-right: -4px;
+}
+i.colored-tomat.fa.fa-google-plus {
+    background: #e84c3d;
+}
+i.color-black.fa.fa-rss {
+    color: #353839;
+    font-size: 13px;
+}
+.search-box-social-icons span {
+    font-size: 13px;
+    color: #353839;
+    font-weight: 700;
+    margin-left: -10px;
+}
+.header-top-area {
+    padding: 35px 0px;
+}
+/********* header navbar CSS *********/
+.header-navbar-area .navbar-collapse {
+    padding-left: 0px;
+}
+.header-navbar-area .nav>li>a {
+    padding: 10px 25px 10px 0px;
+}
+.header-navbar-area .navbar-default {
+    border: transparent;
+    background: #4599d3;
+}
+.header-navbar-area .navbar-default {
+    border: transparent;
+    background: #4599d3;
+}
+.header-navbar-area .navbar {
+    border-radius: inherit;
+    margin-bottom: 0px;
+}
+.header-navbar-area .navbar-default .navbar-nav>li>a {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.nav-p span {
+    background: #fdd108;
+    height: 35px;
+    width: 35px;
+    padding: 5px 9px;
+    border-radius: 50px;
+    color: #4599d3;
+}
+.header-navbar-area .navbar-right {
+    margin-right: -40px;
+}
+/********* header hero CSS *********/
+.hero-bg {
+    background: #535353;
+    color: #fff;
+}
+.hero-heading {
+    padding: 180px 0px;
+}
+.hero-heading h1 {
+    font-size: 48px;
+    font-weight: 900;
+    padding: 20px 10px 0px 0px;
+}
+.hero-heading p {
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+.hero-heading .btn {
+    background-color: transparent;
+    border: 1px solid #fdd108;
+    color: #fdd108;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-right: 15px;
+    padding: 15px 25px;
+    border-radius: inherit;
+}
+.hero-heading .btn-bg {
+    background: #3fc7f3;
+    padding: 17px 27px;
+    border: none;
+    color: #1a1a1a;
+}
+/********* About area CSS *********/
+.about-bg {
+    background: #3d9ed6;
+}
+.about-area {
+    padding: 110px 0px 90px;
+}
+.about-text h2 {
+    font-weight: 300;
+    color: #fefefe;
+}
+.about-text {
+    padding-bottom: 100px;
+}
+.about-content i.fa.fa {
+    font-size: 100px;
+}
+.about-content {
+    color: #faf9f9;
+}
+.about-content h3 {
+    font-weight: 700;
+}
+/********* recent project CSS *********/
+.project-title h2 {
+    font-size: 29px;
+    font-weight: 700;
+    color: #1e1e1e;
+    margin-bottom: 0px;
+}
+.project-title span {
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.project-title {
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 50px;
+}
+.slide-number ul {
+    margin-top: 25px;
+    list-style: none;
+    padding-left: 25px;
+}
+.slide-number li {
+    padding: 5px;
+    text-align: center;
+    font-weight: 900;
+}
+.slide-number li a {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+.slide-number .active a {
+    background: #fdd108;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+}
+.city-slider-text h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+ul.city-icon {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.city-icon li {
+    display: inline-block;
+    padding-left: 5px;
+}
+.comment-view {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #999;
+}
+ul.city-icon li a {
+    color: #999;
+}
+.city-slider-comments {
+    border-bottom: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+    padding: 7px 0px;
+    margin-bottom: 60px;
+}
+.city-slider-text p {
+    margin-bottom: 25px;
+}
+.slider-arrow {
+    justify-content: space-between;
+    display: flex;
+    padding-top: 20px;
+}
+.slider-arrow i.fa.fa {
+    font-size: 36px;
+    height: 165px;
+    width: 165px;
+    text-align: center;
+    background: #3d9ed6;
+    color: #fff;
+    line-height: 165px;
+}
+.city-slider {
+    padding-top: 20px;
+}
+.project-btn .btn {
+    background-color: #3d9ed6;
+    color: #fff;
+    border: none;
+    border-radius: inherit;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.recent-project-area {
+    padding: 100px 0px;
+}
+/********* Explor area CSS *********/
+.explor-bg {
+    background-image: url(../images/explor.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.explor-bg:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #fdd108;
+    top: 0;
+    left: 0;
+    opacity: .85;
+}
+.row.full-padding {
+    background-color: #fff;
+    z-index: 2;
+    position: relative;
+    padding: 30px;
+    margin: 120px 0px;
+}
+.top-padding {
+    padding-top: 10px;
+}
+.explor-text h4 {
+    font-size: 19px;
+}
+
+/********* blog area CSS *********/
+.single-blog p {
+    text-transform: uppercase;
+    padding: 25px 15px 15px;
+    margin: 0;
+    color: #1a1a1a;
+}
+.blog-comment {
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    color: #999;
+}
+.blog-text {
+    padding: 12px 0px;
+}
+.blog-icon a {
+    text-decoration: none;
+}
+.blog-icon {
+    padding: 12px 0px;
+}
+.blog-icon i.fa {
+    padding-right: 5px;
+}
+.blog-icon a {
+    color: #999;
+    margin-left: 12px;
+}
+.single-blog {
+    margin-bottom: 50px;
+}
+.our-blog-area {
+    padding: 100px 0px;
+}
+/********* Testimonial area CSS *********/
+.slider-arrow.gray-colored i.fa.fa {
+    background: #f7f7f7;
+}
+.testimonial-area {
+    background: #3d9ed6;
+    padding: 100px 0px;
+}
+.project-title.white-color {
+    border-bottom: 1px solid #53abd8;
+}
+.project-title.white-color h2 {
+    color: #fff;
+}
+.white-text p {
+    color: #fff;
+}
+.yellow-text {
+    color: #fdd108;
+    font-size: 20px;
+    margin-left: -15px;
+}
+.city-slider-text.white-text {
+    padding-left: 8px;
+}
+.border-gray {
+    border-top: 1px solid #53abd8;
+    border-bottom: 1px solid #53abd8;
+}
+.ceo {
+    color: #c1dbef;
+}
+.ceo span {
+    font-weight: 400;
+    text-transform: capitalize;
+}
+ul.city-icon.white-icon li a {
+    color: #c1dbef;
+}
+.slide-number.margin-top-0 {
+    margin-top: -15px;
+}
+.slider-arrow.gray-colored {
+    margin-top: -20px;
+}
+/********* pricing table CSS *********/
+.pricing-table-text {
+    background: #3d9ed6;
+    color: #fff;
+    padding: 50px 70px 80px 50px;
+}
+.pricing-table-text h4 {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+ul.pricing-text {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.pricing-text li {
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+ul.pricing-text li:before {
+    content: "";
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    background: #fff;
+    left: 65px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.pricing-table h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+.pricing-table .big {
+    font-size: 48px;
+}
+.pricing-table h2 span {
+    font-size: 13px;
+    font-weight: 400;
+}
+.pricing-level {
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 8px 0px 8px 8px;
+}
+.pricing-table ul {
+    margin: 0;
+    padding: 25px 0px 35px;
+    list-style: none;
+}
+.pricing-table li {
+    padding-bottom: 17px;
+}
+.table-bottom-text h2 {
+    font-weight: 300;
+    text-align: center;
+}
+.table-bottom-text {
+    margin: 50px 0px 0px;
+    padding: 25px;
+}
+.client-title h4 {
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.client-title h4 {
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.single-clint-list {
+    border: 1px solid #1a1a1a;
+    text-align: center;
+    padding: 30px 60px;
+    margin-bottom: 30px;
+}
+.single-clint-list img {
+    height: 27px;
+    width: 100%;
+}
+.client-title {
+    margin-bottom: 55px;
+}
+.pricing-table-area {
+    padding: 100px 0px 60px;
+}
+/********* count area CSS *********/
+.count-number h2 {
+    font-size: 59px;
+    font-weight: 700;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 3px;
+    display: inline-block;
+}
+.count-number {
+    color: #fff;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.count-area {
+    background: #449ad3;
+    padding: 30px 0px;
+}
+/********* footer area CSS *********/
+.footer-area {
+    background: #1e1e1e;
+    color: #fff;
+}
+h4.border-bottom {
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+h4.border-bottom:after {
+    position: absolute;
+    border: .75px solid #353535;
+    content: "";
+    width: 95%;
+    left: 15px;
+    top: 29px;
+}
+.footer-subscribe input[type=email] {
+    padding: 8px 45px;
+    margin-bottom: 15px;
+}
+.footer-subscribe p {
+    margin-bottom: 20px;
+}
+.footer-recent-article ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-recent-article li {
+    padding: 0px 0px 15px 27px;
+    position: relative;
+}
+.footer-recent-article li:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    height: 13px;
+    width: 13px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.twitter-content h5 {
+    font-size: 15px;
+    font-weight: 700;
+}
+.twitter-content span {
+    font-size: 11px;
+    color: #2d97cb;
+    font-weight: 400;
+}
+.twitter-content .timer {
+    font-weight: 700;
+    color: #fff;
+    float: right;
+}
+.twitter-text {
+    padding-left: 65px;
+    margin-top: -60px;
+}
+.twitter-text a {
+    color: #fff;
+    text-decoration: none;
+}
+.twitter-content:nth-child(2) {
+    border-bottom: 1px solid #353535;
+    padding-bottom: 10px;
+}
+.twitter-content:nth-child(3) {
+    padding-top: 20px;
+    margin-bottom: 80px;
+}
+.footer-area {
+    padding: 100px 0px;
+}
+h4.border-bottom {
+    padding-bottom: 50px;
+}
+.footer-subscribe {
+    margin-bottom: 140px;
+}
+.footer-copy-write p {
+    font-size: 11px;
+}
+.footer-social-icons ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-social-icons li {
+    display: inline-block;
+    margin-right: -4px;
+}
+.footer-social-icons li a {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    background: #ccc;
+    height: 35px;
+    width: 35px;
+    display: block;
+    line-height: 35px;
+}
+.footer-social-icons li a.facebook-c {
+    background: #3b5999;
+}
+.footer-social-icons li a.twitter-c {
+    background: #55acee;
+}
+.footer-social-icons li a.google-plus-c {
+    background: #dd4b39;
+}
+.follow-text {
+    font-size: 9px;
+    float: right;
+    background: #55acee;
+    padding: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 4px;
+}
+.follow-text i.fa {
+    margin-right: 5px;
+}
