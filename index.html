@@ -26,9 +26,15 @@
                     <div class="col-md-9">
                         <div class="search-box-social-icons">
                             <div class="search-box">
-                                <input type="search">
-                                <i class="colored-black fa fa-search" aria-hidden="true"></i>
-                                <button class="btn btn-default" type="submit">login</button>
+                                <form>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder=" ">
+                                    </div>
+                                    <i class="colored-black fa fa-search" aria-hidden="true"></i>
+                                </form>
+                                <div class="header-top-btn">
+                                    <button class="btn btn-default" type="submit">login</button>
+                                </div>
                             </div>
                             <div class="header-social-icons">
                                 <ul>
@@ -52,30 +58,32 @@
         <div class="header-navbar-area">
             <nav class="navbar navbar-default">
                 <div class="container">
-                    <!--Toggle get grouped for better mobile display -->
+                    <div class="row">
+                                            <!--Toggle get grouped for better mobile display -->
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Pages</a></li>
+                                <li><a href="#">company</a></li>
+                                <li><a href="#">Shortcode</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+    
+                            <ul class="nav navbar-nav navbar-right nav-p">
+                                <li><a href="#">shopping cart <span>7</span></a></li>
+                              </ul>
+                        </div><!-- /.navbar-collapse -->
                     </div>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Pages</a></li>
-                            <li><a href="#">company</a></li>
-                            <li><a href="#">Shortcode</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-
-                        <ul class="nav navbar-nav navbar-right nav-p">
-                            <li><a href="#">shopping cart <span>7</span></a></li>
-                          </ul>
-                    </div><!-- /.navbar-collapse -->
                 </div><!-- /.container -->
             </nav>
         </div>
@@ -85,7 +93,7 @@
         <div class="header-hero-area hero-bg">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-12">
                         <div class="hero-heading">
                             <h1>See all apelience instantly in our website now!</h1>
                             <p>See all apelience instantly in our website now!</p>
@@ -635,7 +643,11 @@
                         <div class="footer-subscribe">
                             <h4 class="border-bottom">Subscribe</h4>
                             <p>Sentence, has been pressing for several centuries.</p>
-                            <input type="email">
+                            <form>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder=" ">
+                                </div>
+                            </form>
                             <div class="project-btn">
                                 <button class="btn btn-default" type="submit">Subscribe</button>
                             </div>
@@ -644,7 +656,7 @@
                             <p>2017 Copy right &#64; orion.com. All right reserved</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-5">
                         <div class="footer-recent-article">
                             <h4 class="border-bottom">Recent articale</h4>
                             <ul>
@@ -658,7 +670,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4 col-md-offset-1">
+                    <div class="col-md-4">
                         <div class="footer-twitter-form">
                             <h4 class="border-bottom">form Twitter <span class="follow-text"><i class="fa fa-twitter"></i>follow us</span> </h4>
                             <div class="twitter-content">

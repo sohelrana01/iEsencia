@@ -33,40 +33,53 @@ img {
 .subscribe-btn {
     float: left;
 }
-.search-box-social-icons i.fa.fa {
-    font-size: 18px;
-    color: #fff;
-    padding: 10px;
-    height: 40px;
-    width: 40px;
-    text-align: center;
+.header-top-btn {
+	float: left;
 }
-.search-box-social-icons input[type=search] {
-    border: none;
-    background: #f2f2f2;
-    padding: 10px 40px;
-    margin-right: -43px;
+.search-box form {
+	float: left;
+}
+.search-box-social-icons i.fa.fa {
+	font-size: 18px;
+	color: #fff;
+	padding: 10px;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+}
+.search-box .form-group {
+	float: left;
+}
+.search-box .form-control {
+	height: 35px;
+	background: #f2f2f2;
+	border: transparent;
+	border-radius: 0px;
+	box-shadow: none;
+	width: 206px;
 }
 .search-box-social-icons .colored-black {
-    background: #333;
-    right: 0;
-    top: 0;
+	background: #333;
+	margin-right: 10px;
 }
-.search-box-social-icons .btn {
-    font-size: 13px;
-    font-weight: 700;
-    border: none;
-    background-color: #3fc7f3;
-    border-radius: inherit;
-    padding: 11px 25px;
-    color: #fff;
-    margin: 0px 10px;
-    text-transform: uppercase;
-    margin-top: -3px;
+.header-top-btn .btn {
+	font-size: 13px;
+	font-weight: 700;
+	border: none;
+	background-color: #3fc7f3;
+	border-radius: 0px;
+	padding: 8px 22px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-right: 10px;
+}
+.header-top-btn .btn:hover {
+	border: none;
+	color: #fff;
 }
 i.colored-yellow.fa.fa-cog {
     background: #fdd108;
-    margin-right: 10px;
+    margin-right: 6px;
 }
 i.colored-skyblue.fa.fa-twitter {
     background: #00abf1;
@@ -84,20 +97,21 @@ i.color-black.fa.fa-rss {
     font-size: 13px;
 }
 .search-box-social-icons span {
-    font-size: 13px;
-    color: #353839;
-    font-weight: 700;
-    margin-left: -10px;
+	font-size: 11px;
+	color: #353839;
+	font-weight: 400;
+	margin-left: -10px;
+	letter-spacing: .5px;
 }
 .header-top-area {
-    padding: 35px 0px;
+	padding: 35px 0px 20px 0px;
 }
 /********* header navbar CSS *********/
-.header-navbar-area .navbar-collapse {
+/* .header-navbar-area .navbar-collapse {
     padding-left: 0px;
-}
-.header-navbar-area .nav>li>a {
-    padding: 10px 25px 10px 0px;
+} */
+.header-navbar-area .nav > li > a {
+	padding: 20px 35px 20px 0px;
 }
 .header-navbar-area .navbar-default {
     border: transparent;
@@ -111,23 +125,25 @@ i.color-black.fa.fa-rss {
     border-radius: inherit;
     margin-bottom: 0px;
 }
-.header-navbar-area .navbar-default .navbar-nav>li>a {
-    font-size: 13px;
-    font-weight: 700;
-    color: #fff;
-    line-height: 30px;
-    text-transform: uppercase;
+.header-navbar-area .navbar-default .navbar-nav > li > a {
+	font-size: 13px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 30px;
+	text-transform: uppercase;
+	letter-spacing: .5px;
 }
 .nav-p span {
-    background: #fdd108;
-    height: 35px;
-    width: 35px;
-    padding: 5px 9px;
-    border-radius: 50px;
-    color: #4599d3;
+	background: #fdd108;
+	height: 29px;
+	width: 29px;
+	padding: 5px 10px;
+	border-radius: 50px;
+	color: #4599d3;
+	font-size: 15px;
 }
 .header-navbar-area .navbar-right {
-    margin-right: -40px;
+    margin-right: -35px;
 }
 /********* header hero CSS *********/
 .hero-bg {
@@ -135,16 +151,18 @@ i.color-black.fa.fa-rss {
     color: #fff;
 }
 .hero-heading {
-    padding: 180px 0px;
+	padding: 160px 0px 180px;
+	max-width: 710px;
 }
 .hero-heading h1 {
-    font-size: 48px;
-    font-weight: 900;
-    padding: 20px 10px 0px 0px;
+	font-size: 48px;
+	font-weight: 900;
+	line-height: 60px;
+	margin-bottom: 15px;
 }
 .hero-heading p {
-    text-transform: uppercase;
-    margin-bottom: 55px;
+	text-transform: uppercase;
+	margin-bottom: 52px;
 }
 .hero-heading .btn {
     background-color: transparent;
@@ -152,27 +170,35 @@ i.color-black.fa.fa-rss {
     color: #fdd108;
     text-transform: uppercase;
     font-size: 13px;
-    margin-right: 15px;
-    padding: 15px 25px;
+    margin-right: 30px;
+    padding: 12px 20px;
     border-radius: inherit;
 }
-.hero-heading .btn-bg {
-    background: #3fc7f3;
-    padding: 17px 27px;
-    border: none;
-    color: #1a1a1a;
+.hero-heading .btn:hover {
+	background: #3fc7f3;
+	border: 1px solid #37c7f3;
+	color: #1a1a1a;
 }
 /********* About area CSS *********/
 .about-bg {
     background: #3d9ed6;
 }
 .about-area {
-    padding: 110px 0px 90px;
+	padding: 98px 0px 70px;
 }
 .about-text h2 {
-    font-weight: 300;
-    color: #fefefe;
+	font-weight: 200;
+	color: #fefefe;
+	line-height: 43px;
 }
+.about-content p {
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 11px;
+    letter-spacing: .5px;
+    padding: 12px 18px;
+    font-weight: 400;
+  }
 .about-text {
     padding-bottom: 100px;
 }
@@ -190,21 +216,26 @@ i.color-black.fa.fa-rss {
     font-size: 29px;
     font-weight: 700;
     color: #1e1e1e;
-    margin-bottom: 0px;
+    margin-bottom: -5px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
 }
 .project-title span {
     font-size: 13px;
     font-weight: 400;
     text-transform: uppercase;
+    margin-left: 10px;
 }
 .project-title {
     border-bottom: 1px solid #e7e7e7;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
+}
+.slide-number {
+	margin-left: -40px;
 }
 .slide-number ul {
     margin-top: 25px;
     list-style: none;
-    padding-left: 25px;
 }
 .slide-number li {
     padding: 5px;
@@ -216,14 +247,16 @@ i.color-black.fa.fa-rss {
     text-decoration: none;
 }
 .slide-number .active a {
-    background: #fdd108;
-    border-radius: 50px;
-    height: 30px;
-    width: 30px;
-    display: block;
-    text-align: center;
-    line-height: 30px;
-    color: #fff;
+	background: #fdd108;
+	border-radius: 50px;
+	height: 30px;
+	width: 30px;
+	display: block;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	margin-left: 14px;
+	font-size: 14px;
 }
 .city-slider-text h3 {
     font-size: 25px;
@@ -250,10 +283,11 @@ ul.city-icon li a {
     border-bottom: 1px solid #e7e7e7;
     border-top: 1px solid #e7e7e7;
     padding: 7px 0px;
-    margin-bottom: 60px;
+    margin-bottom: 65px;
 }
 .city-slider-text p {
-    margin-bottom: 25px;
+	margin-bottom: 30px;
+	margin-top: 16px;
 }
 .slider-arrow {
     justify-content: space-between;
@@ -261,27 +295,28 @@ ul.city-icon li a {
     padding-top: 20px;
 }
 .slider-arrow i.fa.fa {
-    font-size: 36px;
-    height: 165px;
-    width: 165px;
-    text-align: center;
-    background: #3d9ed6;
-    color: #fff;
-    line-height: 165px;
+	font-size: 36px;
+	height: 167px;
+	width: 167px;
+	text-align: center;
+	background: #3d9ed6;
+	color: #fff;
+	line-height: 165px;
 }
 .city-slider {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .project-btn .btn {
     background-color: #3d9ed6;
     color: #fff;
     border: none;
     border-radius: inherit;
-    padding: 10px 20px;
+    padding: 11px 18px;
     text-transform: uppercase;
+    font-size: 11px;
 }
 .recent-project-area {
-    padding: 100px 0px;
+	padding: 95px 0px 120px;
 }
 /********* Explor area CSS *********/
 .explor-bg {
@@ -301,23 +336,30 @@ ul.city-icon li a {
     opacity: .85;
 }
 .row.full-padding {
-    background-color: #fff;
-    z-index: 2;
-    position: relative;
-    padding: 30px;
-    margin: 120px 0px;
+	background-color: #fff;
+	z-index: 2;
+	position: relative;
+	padding: 45px;
 }
 .top-padding {
     padding-top: 10px;
 }
 .explor-text h4 {
-    font-size: 19px;
+	font-size: 19px;
+	line-height: 25px;
+	color: #1e1e1e;
+}
+.explor-area .project-btn .btn {
+	font-size: 13px;
+}
+.explor-area {
+	padding: 120px 0px;
 }
 
 /********* blog area CSS *********/
 .single-blog p {
     text-transform: uppercase;
-    padding: 25px 15px 15px;
+    padding: 25px;
     margin: 0;
     color: #1a1a1a;
 }
@@ -327,13 +369,13 @@ ul.city-icon li a {
     color: #999;
 }
 .blog-text {
-    padding: 12px 0px;
+	padding: 10px 0px 10px 10px;
 }
 .blog-icon a {
     text-decoration: none;
 }
 .blog-icon {
-    padding: 12px 0px;
+	padding: 10px 10px 10px 0px;
 }
 .blog-icon i.fa {
     padding-right: 5px;
@@ -343,27 +385,33 @@ ul.city-icon li a {
     margin-left: 12px;
 }
 .single-blog {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 .our-blog-area {
-    padding: 100px 0px;
+	padding: 95px 0px 120px;
 }
 /********* Testimonial area CSS *********/
 .slider-arrow.gray-colored i.fa.fa {
     background: #f7f7f7;
 }
 .testimonial-area {
-    background: #3d9ed6;
-    padding: 100px 0px;
+	background: #3d9ed6;
+	padding: 95px 0px 55px;
 }
 .project-title.white-color {
-    border-bottom: 1px solid #53abd8;
+	border-bottom: 1px solid #53abd8;
+	margin-bottom: 50px;
 }
 .project-title.white-color h2 {
     color: #fff;
 }
 .white-text p {
-    color: #fff;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: .5px;
+    line-height: 22px;
+    font-weight: 300;
+    margin-top: 0px;
 }
 .yellow-text {
     color: #fdd108;
@@ -395,9 +443,9 @@ ul.city-icon.white-icon li a {
 }
 /********* pricing table CSS *********/
 .pricing-table-text {
-    background: #3d9ed6;
-    color: #fff;
-    padding: 50px 70px 80px 50px;
+	background: #3d9ed6;
+	color: #fff;
+	padding: 50px 70px 40px 30px;
 }
 .pricing-table-text h4 {
     font-size: 21px;
@@ -410,22 +458,30 @@ ul.pricing-text {
     list-style: none;
 }
 ul.pricing-text li {
-    padding-bottom: 20px;
-    padding-left: 30px;
+	padding-bottom: 25px;
+	padding-left: 35px;
+	line-height: 21px;
+	letter-spacing: .25px;
 }
-ul.pricing-text li:before {
-    content: "";
-    position: absolute;
-    height: 13px;
-    width: 13px;
-    background: #fff;
-    left: 65px;
-    border-radius: 50%;
-    margin-top: 5px;
+ul.pricing-text li::before {
+	content: "";
+	position: absolute;
+	height: 17px;
+	width: 17px;
+	background: #fff;
+	left: 45px;
+	border-radius: 50%;
+	margin-top: 4px;
 }
 .pricing-table h2 {
-    font-size: 48px;
-    font-weight: 700;
+	font-size: 48px;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+.pricing-table .project-btn .btn {
+	font-size: 11px;
+	padding: 12px 30px;
 }
 .pricing-table .big {
     font-size: 48px;
@@ -450,8 +506,9 @@ ul.pricing-text li:before {
     padding-bottom: 17px;
 }
 .table-bottom-text h2 {
-    font-weight: 300;
-    text-align: center;
+	font-weight: 200;
+	text-align: center;
+	line-height: 43px;
 }
 .table-bottom-text {
     margin: 50px 0px 0px;
@@ -478,10 +535,10 @@ ul.pricing-text li:before {
     width: 100%;
 }
 .client-title {
-    margin-bottom: 55px;
+    margin-bottom: 60px;
 }
 .pricing-table-area {
-    padding: 100px 0px 60px;
+	padding: 95px 0px 90px;
 }
 /********* count area CSS *********/
 .count-number h2 {
@@ -491,14 +548,18 @@ ul.pricing-text li:before {
     margin-bottom: 3px;
     display: inline-block;
 }
+.count-number p {
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	font-weight: 400;
+}
 .count-number {
     color: #fff;
     box-sizing: border-box;
-    padding: 30px;
 }
 .count-area {
-    background: #449ad3;
-    padding: 30px 0px;
+	background: #449ad3;
+	padding: 87px 0px 107px;
 }
 /********* footer area CSS *********/
 .footer-area {
@@ -509,21 +570,37 @@ h4.border-bottom {
     font-size: 21px;
     font-weight: 700;
     text-transform: uppercase;
+    padding-bottom: 45px;
 }
-h4.border-bottom:after {
-    position: absolute;
-    border: .75px solid #353535;
-    content: "";
-    width: 95%;
-    left: 15px;
-    top: 29px;
+h4.border-bottom::after {
+	position: absolute;
+	border: 1px solid #353535;
+	content: "";
+	width: 93%;
+	left: 15px;
+	top: 29px;
 }
-.footer-subscribe input[type=email] {
-    padding: 8px 45px;
-    margin-bottom: 15px;
+.footer-subscribe .form-control {
+    border: 0;
+    border-radius: 0;
+    width: 222px;
+    height: 38px;
+    font-size: 13px;
+  }
+  .footer-subscribe .form-group {
+    margin-bottom: 10px;
+  }
+  .footer-subscribe .project-btn .btn {
+	font-size: 11px;
+	line-height: 18px;
+	letter-spacing: .5px;
+	padding: 10px 12px;
+	background: #23c9ff;
 }
 .footer-subscribe p {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
+	line-height: 18px;
+	letter-spacing: .25px;
 }
 .footer-recent-article ul {
     margin: 0;
@@ -571,17 +648,14 @@ h4.border-bottom:after {
     padding-bottom: 10px;
 }
 .twitter-content:nth-child(3) {
-    padding-top: 20px;
-    margin-bottom: 80px;
+	padding-top: 20px;
+	margin-bottom: 73px;
 }
 .footer-area {
-    padding: 100px 0px;
-}
-h4.border-bottom {
-    padding-bottom: 50px;
+	padding: 107px 0px 95px;
 }
 .footer-subscribe {
-    margin-bottom: 140px;
+	margin-bottom: 115px;
 }
 .footer-copy-write p {
     font-size: 11px;
@@ -615,13 +689,13 @@ h4.border-bottom {
     background: #dd4b39;
 }
 .follow-text {
-    font-size: 9px;
-    float: right;
-    background: #55acee;
-    padding: 3px;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-top: 4px;
+	font-size: 9px;
+	float: right;
+	background: #55acee;
+	padding: 4px 5px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 3px;
 }
 .follow-text i.fa {
     margin-right: 5px;
