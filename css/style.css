@@ -438,7 +438,9 @@ ul.city-icon li a {
     border-bottom: 1px solid #53abd8;
 }
 .ceo {
-    color: #c1dbef;
+	color: #c1dbef;
+	font-size: 11px;
+	letter-spacing: .5px;
 }
 .ceo span {
     font-weight: 400;
